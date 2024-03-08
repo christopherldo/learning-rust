@@ -1,4 +1,5 @@
 mod binding_and_mutability;
+mod destructuring;
 mod scope;
 mod shadowing;
 mod unused_variables;
@@ -8,4 +9,5 @@ fn main() {
     scope::run();
     shadowing::run();
     unused_variables::run();
+    destructuring::run();
 }
